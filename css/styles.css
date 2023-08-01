@@ -90,10 +90,6 @@ color: var(--hover);
     display: flex;
     gap: 40px;
 }
-.adress-list-li{
-    margin-right: 40px;
-    margin-right: 0;
-}
 .first-section{
     background-color:#2e2f42;
     padding: 188px 0;
@@ -106,6 +102,7 @@ color: var(--hover);
     color:var(--whitecolor);
     max-width: 496px;
     margin: 0 auto;
+    
 }
 
 .fisrt-section-button{
@@ -122,7 +119,9 @@ color: var(--hover);
     height: 56px;   
     border: none;
     border-radius: 4px;
-    margin: 0 auto;
+   
+    margin:48px auto 0 auto;
+
 }
 .button:hover{
     background-color:var(--hover);
