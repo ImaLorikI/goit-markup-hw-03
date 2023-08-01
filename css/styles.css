@@ -11,6 +11,9 @@ body{
     color:var(--color);
     background-color: var(--whitecolor);
 }
+img{
+    display: block;
+}
 .logo{
 color: var(--purpule);
     font-family:var(--releway);
