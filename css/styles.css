@@ -293,6 +293,7 @@ margin: 0;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    padding: 0;
 }
 .section-portfilio-li{
     width: calc((100% - 48px) / 3);
@@ -308,6 +309,7 @@ margin: 0;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin: 0 0 8px 0;
 }
 .portfolio-title{
     margin-bottom: 8px;
@@ -318,5 +320,6 @@ margin: 0;
     font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        margin: 0;
 }
 
