@@ -186,9 +186,10 @@ color: var(--hover);
     padding: 0;
         margin: 0;
 }
-.third-section-elemet{
+.third-section-li{
     margin-right: 0;
     align-self: flex-start;
+
 }
 /* =============== 4th-section =================== */
 .lastsection{
