@@ -6,6 +6,7 @@
     --purpule:#4d5ae5;
     --hover:#404BBF;
 }
+/*===============KEY style============ */
 body{
     font-family:var(--roboto);
     color:var(--color);
@@ -37,6 +38,7 @@ img{
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+/*=========== Header ========= */
 .header{
     border-bottom: 1px solid #e7e9fc;
 }
@@ -100,6 +102,7 @@ color: var(--hover);
     display: flex;
     gap: 40px;
 }
+/* ============== Hero ============= */
 .first-section{
     background-color:#2e2f42;
     padding: 188px 0;
@@ -135,13 +138,17 @@ color: var(--hover);
 .button:focus{
     background-color:var(--hover);
 }
+/* =============== Second-section =================== */
 .second-section{
     padding: 120px 0;
 }
 .second-section-list{
     display: flex;
     gap: 24px;
-    
+    padding:0;
+}
+.second-section-li{
+    width: calc((100% - 72px) / 4);
 }
 .second-section-title{
     font-weight: 500;
@@ -150,13 +157,16 @@ color: var(--hover);
     letter-spacing: 0.02em;
     color:#2e2f42;
     margin-bottom: 8px;
+    margin-top:0;
+
 }
 .paragraf{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    width: calc((100% - 74px) / 4);
+ margin: 0;
 }
+/* =============== Third-section =================== */
 .third-section{
     padding-bottom: 120px;
 }
@@ -168,20 +178,37 @@ color: var(--hover);
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: #2e2f42;
+      
 }
 .third-section-list{
     display: flex;
     gap: 24px;
+    padding: 0;
+        margin: 0;
 }
 .third-section-elemet{
     margin-right: 0;
+    align-self: flex-start;
 }
+/* =============== 4th-section =================== */
 .lastsection{
     background-color: #F4F4FD;
+    padding: 120px 0;
+}
+.lastsection-title{
+    margin-bottom: 72px;
+}
+.lastsection-list{
+    display: flex;
+    gap: 24px;
+}
+.lastsection-li{
+    border-radius: 0px 0px 4px 4px;
 }
 .whiteback{
     background-color:var(--whitecolor)
 }
+/* =============== footer-section =================== */
 .footerback{
     background-color: #2e2f42;
 }
@@ -211,6 +238,7 @@ color: var(--hover);
     color: var(--whitecolor);
     background-color: #404BBF
 }
+/* =============== Portfolio-photo =================== */
 .paragrafphoto{
     color: #434455;
     font-size: 16px;
