@@ -1,3 +1,7 @@
+ul{
+    margin: 0;
+        padding: 0;
+}
 :root{
     --roboto: 'Roboto',sans-serif;
     --releway:'Raleway',sans-serif;
@@ -17,9 +21,14 @@ img{
 }
 .link {
     text-decoration: none;
+    margin: 0;
 }
 .list {
     list-style: none;
+}
+.list .mainpage{
+    display: block;
+        padding: 24px 0;
 }
 .container {
     width: 1158px;
@@ -49,7 +58,7 @@ img{
     display: flex;
     align-items: center;
     margin:0 auto 0 0;
-    padding: 0;
+
 }
 .header-nav .list{
 margin-right: auto;
@@ -62,6 +71,7 @@ color: var(--purpule);
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin: 0;
 }
 .logo-header{
     margin-right: 76px;
@@ -79,7 +89,7 @@ color: var(--purpule);
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#2e2f42;
-padding: 24px 0;
+
 } 
 .link:hover{
 color: var(--hover);
@@ -101,6 +111,7 @@ color: var(--hover);
 .adress-list{
     display: flex;
     gap: 40px;
+        padding: 24px 0;
 }
 /* ============== Hero ============= */
 .first-section{
@@ -131,6 +142,7 @@ color: var(--hover);
     border: none;
     border-radius: 4px;
     margin:48px auto 0 auto;
+    padding: 0;
 }
 .button:hover{
     background-color:var(--hover);
@@ -172,14 +184,14 @@ color: var(--hover);
     padding-bottom: 120px;
 }
 .third-section-title{
-    margin-bottom: 72px;
+text-align: center;
+    font-family:var(--roboto);
     font-size: 36px;
-        line-height: 1.11;
-        text-align: center;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-        color: #2e2f42;
-      
+    font-weight: 700;
+    letter-spacing: 0.045em;
+    text-transform: capitalize;
+    margin-bottom:72px;
+    margin-top: 0;
 }
 .third-section-list{
     display: flex;
@@ -221,7 +233,7 @@ line-height: 40px;
     background-color:var(--whitecolor)
 }
 .lastsection-paragraf{
-        font-size: 16px;
+        font-size: 20px;
             line-height: 1.5;
             letter-spacing: 0.02em;
             margin: 0;
@@ -230,11 +242,16 @@ line-height: 40px;
 }
 .lastsection-par{
 text-align: center;
+font-family: var(--roboto);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
 margin: 0;
 }
 .lastsection-div{
     padding: 32px 0;
-    
 }
 /* =============== footer-section =================== */
 .footerback{
@@ -244,12 +261,14 @@ margin: 0;
 .footerback-link{
     display: inline-block;
     margin-bottom: 16px;
+    
 }
 .footerparagraf{
     line-height: 1.5;
     color:#F4F4FD;
     letter-spacing: 0.02em;
-    max-width: 264px
+    max-width: 264px;
+    margin:0;
 }
 .studiofotter{
     color:#f4f4fd;
